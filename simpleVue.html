@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>简化版Vue---苏日俪格</title>
+    </head>
+
+    <body>
+        <div style="clear: both; content: ''; display: block; width: 100%; height: 80px;">
+            <h1 style="float: left;"><a style="text-decoration: none;" href="https://yufy1314.github.io/">☞☞ 个人主页欢迎访问 ☜☜</a></h1>
+            <h1 style="float: right;"><a style="text-decoration: none;" href="https://www.jianshu.com/u/72f239ec5d03">☞☞ 我的博客欢迎访问 ☜☜</a></h1>
+        </div>
+        <hr />
+        <div id="simpleVue">
+            <button yf-on:click="copy">戳我</button>
+            <div>
+                <textarea yf-model="name"></textarea>
+                <div yf-text="name"></div>
+            </div>
+            <hr>
+            <button yf-on:click="show">显示/隐藏</button>
+            <div yf-if="isShow">
+                <input type="text" yf-model="webSite">
+                <div yf-text="webSite"></div>
+            </div>
+        </div>
+        <script src="simpleVue.js"></script>
+        <script>
+        let vm = new SimpleVue({
+            el: '#simpleVue',
+            data: {
+                name: '苏日俪格',
+                webSite: 'https://github.com/YuFy1314',
+                isShow: true
+            },
+            methods: {
+                copy() {
+                    this.name += '苏日俪格';
+                },
+                show() {
+                    if (this.isShow) {
+                        this.isShow = false;
+                    } else {
+                        this.isShow = true;
+                    }
+                }
+            }
+        });
+
+        </script>
+    </body>
+
+</html>
