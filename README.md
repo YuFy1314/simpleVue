@@ -115,4 +115,4 @@ class Watcher { // 订阅器构造 用来接收属性值的相关数据的变化
 
 希望大家阅读完本文可以有所收获，因为能力有限，掌握的知识也是不够全面，欢迎大家提出来一起分享！谢谢O(∩_∩)O~
 
-欢迎访问**[我的GitHub](https://github.com/YuFy1314)**，喜欢的可以star，项目随意fork，支持转载但要下标注，同时恭候：**[个人博客](https://yufy1314.github.io/)**
+欢迎访问 [我的GitHub](https://github.com/YuFy1314)**，喜欢的可以star，项目随意fork，支持转载但要下标注，同时恭候： [个人博客](https://yufy1314.github.io/)**
