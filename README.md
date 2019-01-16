@@ -1,5 +1,6 @@
 # simpleVue
-一个简化版的Vue的demo教你Vue的实现原理是怎样的
+There are a demo of the Simple Vue that make you know it's principle of realization.
+
 好多人看完我的[这个文章](https://www.jianshu.com/p/23180880d3aa)对它的理解还是只是知道了大概原理，但是对具体的Vue双向绑定的实现很模糊，因此就出了这篇文章，供大家参考希望可以得到收获，以下是主要代码逻辑，先陈述一下这一过程都需要什么：
 
 需要有一个接收Vue实例配置项的构造函数SimpleVue，给他加两个原型方法分别是observe()和compile()，再构造出一个订阅器watcher，给他加一个更新视图方法
