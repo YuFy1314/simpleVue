@@ -112,10 +112,10 @@ class Watcher { // 订阅器构造 用来接收属性值的相关数据的变化
     }
 }
 ```
-#### Shortcuts
-[戳我运行代码](https://yufy1314.github.io/simpleVue/)
-[Edit on GitHub](https://github.com/YuFy1314/simpleVue)
-[Try in JSFiddle](https://jsfiddle.net/yufy_info/51zuhjwf/26/)
+### Shortcuts
+* [戳我运行代码](https://yufy1314.github.io/simpleVue/)
+* [Edit on GitHub](https://github.com/YuFy1314/simpleVue)
+* [Try in JSFiddle](https://jsfiddle.net/yufy_info/51zuhjwf/26/)
 
 希望大家阅读完本文可以有所收获，因为能力有限，掌握的知识也是不够全面，欢迎大家提出来一起分享！谢谢O(∩_∩)O~
 
